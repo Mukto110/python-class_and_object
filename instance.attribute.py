@@ -16,9 +16,9 @@ buyer_mukto.add_to_cart("bag")
 
 print("Mukto's Product: ", buyer_mukto.cart)
 
-buyer_puppu = Shop("Puppu")
-buyer_puppu.add_to_cart("makeup")
-buyer_puppu.add_to_cart("lipstick")
-buyer_puppu.add_to_cart("heel")
+buyer_dipu = Shop("Dipu")
+buyer_dipu.add_to_cart("makeup")
+buyer_dipu.add_to_cart("lipstick")
+buyer_dipu.add_to_cart("heel")
 
-print("Puppu's product: ", buyer_puppu.cart)
+print("Puppu's product: ", buyer_dipu.cart)

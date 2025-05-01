@@ -1,5 +1,5 @@
 class Shop:
-    cart = [] # Here cart is a class attribute 
+    cart = []
 
     def __init__(self, buyer):
         self.buyer = buyer
@@ -17,9 +17,9 @@ mukto.add_to_card("mobile")
 print(mukto.cart)
 
 
-puppu = Shop("Puppu")
-puppu.add_to_card("makeup")
-puppu.add_to_card("lipstick")
-puppu.add_to_card("face wash")
+sabbir = Shop("Puppu")
+sabbir.add_to_card("makeup")
+sabbir.add_to_card("lipstick")
+sabbir.add_to_card("face wash")
 
-print(puppu.cart)
+print(sabbir.cart)
